@@ -1,0 +1,18 @@
+<html><body>
+<h2><u>Thank you for signing the guest book!!</u></h2>
+<?php
+$name=$_REQUEST["name"];
+$mail=$_REQUEST["mail"];
+$comment=$_REQUEST["comment"];  ?>
+<table border="1" cellpadding="20">
+<tr><th align="left">Your Name:</th>
+<td><?php echo $name; ?></td></tr>
+<tr><th align="left">Email:</th>
+<td><?php echo $mail; ?></td></tr>
+<tr><th align="left">Comments</th>
+<td><?php echo $comment; ?></td></tr>
+Fried Rice <input type="checkbox" name="ch1" >
+Hoppers <input type="checkbox" name="ch2" >
+
+</table>
+</body></html>

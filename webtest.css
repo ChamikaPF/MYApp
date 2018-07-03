@@ -1,0 +1,29 @@
+
+
+#contact{
+    padding: 4rem 0;
+    overflow: hidden;
+    text-align: center;
+}
+#contact h2 strong{
+    color: #00aced ;
+    font-weight: 300 ;
+}
+
+/* Additional Services*/
+
+
+#myModal td{
+    text-align: left;
+
+}
+
+#myModal .well h2{
+    text-align: center;
+}
+
+#myModal div#totalPrice{
+    padding:10px;
+    font-weight:bold;
+    background-color:#ff0;
+}
